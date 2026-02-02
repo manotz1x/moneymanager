@@ -7,9 +7,6 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "overrides": {
-  "vite": "npm:rolldown-vite@^7.2.5"
-  },
   "dependencies": {
     "dotenv": "^17.2.3",
     "mongoose": "^9.1.5",
