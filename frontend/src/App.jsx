@@ -4,7 +4,6 @@ import Home from "./pages/Home";
 import Dashboard from "./pages/Dashboard";
 import Charts from "./pages/Charts";
 import Accounts from "./pages/Accounts";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Sidebar from "./components/Sidebar";
 import DarkToggle from "./components/DarkToggle";
 
