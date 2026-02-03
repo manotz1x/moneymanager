@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://127.0.0.1:5000/api", 
+  baseURL: "https://moneymanager-0z7k.onrender.com/api", 
 });
 
 export default api;
