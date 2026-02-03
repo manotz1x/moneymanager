@@ -18,7 +18,7 @@ app.use("/api/accounts", accountRoutes);
 
 // MongoDB connection
 const PORT = process.env.PORT || 5000;
-const MONGO_URI = process.env.MONGO_URI || "your_mongo_connection_string_here";
+const MONGO_URI = process.env.MONGO_URI;
 
 mongoose
   .connect(MONGO_URI)
