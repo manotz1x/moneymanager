@@ -10,7 +10,7 @@ export default function App() {
     <BrowserRouter>
       <div className="flex">
         <NavBar />
-        <div className="flex-1 p-6 bg-gray-300">
+        <div className="flex-1 p-6 bg-gray-500">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/dashboard" element={<Dashboard />} />
