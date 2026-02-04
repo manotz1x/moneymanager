@@ -66,7 +66,7 @@ export default function AddTransactionModal({
 
         {/* FORM */}
         <form onSubmit={handleSubmit} className="space-y-3">
-          <select
+          {/* <select
             name="account"
             required
             className="w-full border p-2 rounded"
@@ -79,7 +79,16 @@ export default function AddTransactionModal({
                 {acc.name} (₹{acc.balance})
               </option>
             ))}
-          </select>
+          </select> */}
+
+          <input
+            type="text"
+            name="account"
+            placeholder="Account"
+            required
+            className="w-full border p-2 rounded"
+            onChange={handleChange}
+          />
 
           <input
             type="number"
